@@ -31,7 +31,7 @@ export default function Education(props){
     <h1 className="EducationHeading">EXPIERENCE</h1>
     <Accordion defaultActiveKey="0" className="Accordion">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>API Integration Lead (<i>December 2022- Present</i>)</Accordion.Header>
+        <Accordion.Header>API Integration Lead (<i>Dec 2022- Present</i>)</Accordion.Header>
         <Accordion.Body>
           <ul>
             <li>Conducted in-depth requirement analysis and coordinated with cross-functional teams to ensure successful API integrations.</li>
@@ -44,7 +44,7 @@ export default function Education(props){
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Sector Specialist - IT Infra (<i>April 2021- December 2022</i>)</Accordion.Header>
+        <Accordion.Header>Sector Specialist - IT Infra (<i>Apr 2021- Dec 2022</i>)</Accordion.Header>
         <Accordion.Body>
           <ul>
             <li>Oversaw and optimized sector-related operations and team performance using advanced IT systems and tools.</li>
