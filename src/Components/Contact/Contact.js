@@ -14,7 +14,7 @@ export default function Contact(props) {
             <Card className="mb-3" style={{ maxWidth: '540px' }}>
                 <div className="row g-0">
                     <div className="col-md-4">
-                        <Card.Img variant="left" src={ContactImage} className="img-fluid rounded-start"/>
+                        <Card.Img variant="left" src={ContactImage} className="img-fluid rounded-start contactImage"/>
                     </div>
                     <div className="col-md-8">
                         <Card.Body>

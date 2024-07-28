@@ -7,7 +7,7 @@ export default function Education(props){
             <h1 className="EducationHeading">EDUCATION</h1>
             <Accordion defaultActiveKey="0" className="Accordion">
       <Accordion.Item eventKey="0">
-        <Accordion.Header>Masters of Business Administration - Symbiosis</Accordion.Header>
+        <Accordion.Header className="AccHeader">Masters of Business Administration - Symbiosis</Accordion.Header>
         <Accordion.Body>
           <ul>
             <li>Developed expertise in business analysis, data management, and IT project management.</li>
@@ -44,7 +44,7 @@ export default function Education(props){
         </Accordion.Body>
       </Accordion.Item>
       <Accordion.Item eventKey="1">
-        <Accordion.Header>Manager Sector Specialist - IT infrastructure (<i>April 2021- December 2022</i>)</Accordion.Header>
+        <Accordion.Header>Sector Specialist - IT Infra (<i>April 2021- December 2022</i>)</Accordion.Header>
         <Accordion.Body>
           <ul>
             <li>Oversaw and optimized sector-related operations and team performance using advanced IT systems and tools.</li>

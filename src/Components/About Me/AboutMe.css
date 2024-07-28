@@ -81,9 +81,11 @@
     border-bottom: 2px solid #2403ff ;
 }
 .banner{
-    width: 100%;
-    height: 250px;
+    width: 95%;
+    height: 375px;
     background-color: #f9bf3f;
+    padding-right: 10%;
+    margin-top: 10%;
 }
 .banner p{
     padding: 20px;
@@ -120,6 +122,9 @@
         height: 150px;
         
         
+    }
+    .banner{
+        height: 250px;
     }
 
     

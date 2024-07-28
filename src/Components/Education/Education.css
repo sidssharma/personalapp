@@ -27,7 +27,34 @@
     font-weight: 400;
 
 }
+.AccHeader{
+    font-weight: 100 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-family: "Quicksand", Arial, sans-serif !important;
+}
 .Accordion{
     margin-top: 30px;
     margin-bottom: 30px;
+    font-weight: 100 !important;
+    font-size: 14px !important;
+    letter-spacing: 1px !important;
+    text-transform: uppercase !important;
+    font-family: "Quicksand", Arial, sans-serif !important;
 }
+
+/* Increase specificity by using more specific selectors */
+
+@media only screen and (max-width: 801px) {
+    .accordion-button {
+        font-weight: 500;
+        font-size: 7px !important;
+      
+        text-transform: uppercase !important;
+      
+    }
+
+    
+}
+
