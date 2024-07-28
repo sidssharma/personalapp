@@ -54,6 +54,9 @@
         text-transform: uppercase !important;
       
     }
+    .Accordion{
+        font-size: 10px !important;
+    }
 
     
 }
