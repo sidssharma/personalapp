@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .parentDiv {
+    position: relative;
+    width: 100%;
+    height: 5px;
+    background-color: rgb(198, 196, 196);
+  }
+  
+  .slider {
+    position: absolute;
+    height: 5px;
+    left: 0;
+    top: 0;
+  }
+  
+  .pointerplusText {
+    position: absolute;
+    top: -15px; /* Adjust based on your design */
+    transform: translateX(-50%);
+    text-align: center;
+  }
+  
+  .percentageText {
+    margin: 0;
+    position: absolute;
+    top: -20px; /* Adjust based on your design */
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  
+  .pointer {
+    position: absolute;
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    top: 0; /* Adjust based on your design */
+    transform: translateX(-50%);
+  }
+  

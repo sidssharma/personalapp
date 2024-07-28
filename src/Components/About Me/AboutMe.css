@@ -1,0 +1,128 @@
+.AboutMe{
+    font-family:"Quicksand", Arial, sans-serif;
+    padding-top: 20%;
+    padding-bottom: 10%;
+    background-color: #f4f4f4;
+    min-height: 100%;
+    padding-left: 5%;
+}
+.AboutMe h5{
+    font-size: 10px;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: #999999;
+}
+.AboutMeHeading{
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    line-height: 1.8;
+}
+.AboutMe p{
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 15px;
+    line-height: 1.8;
+    color:rgba(0, 0, 0, 0.7);
+    font-weight: 400;
+
+}
+.servicesContainer{
+    display: flex;
+    flex-direction: column;
+    width:95%;
+    gap: 10px;
+    margin-top: 100px;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    
+   
+    
+    
+}
+
+.services{
+    display: flex;
+    flex-direction: column;
+    font-family: "Quicksand", Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    background-color: rgb(255, 255, 255);
+    height: 120px;
+    width:100%;
+    padding-left: 10px;
+}
+.servicesIcons{
+    height: 30px;
+    width: 30px;
+    margin-top:30px;
+    filter: invert(57%) sepia(54%) saturate(7102%) hue-rotate(167deg) brightness(103%) contrast(101%);
+}
+.servicesIcons.secondBlock{
+    filter: invert(18%) sepia(76%) saturate(5175%) hue-rotate(356deg) brightness(100%) contrast(93%);
+}
+.servicesIcons.thirdBlock{
+    filter: invert(80%) sepia(65%) saturate(488%) hue-rotate(13deg) brightness(111%) contrast(98%);
+}
+.servicesIcons.fourthBlock{
+    filter: invert(11%) sepia(89%) saturate(5423%) hue-rotate(252deg) brightness(100%) contrast(141%);
+}
+.services.firstBlock{
+    border-bottom: 2px solid #00a4d6;
+}
+.services.secondBlock{
+    border-bottom: 2px solid #f52314 ;
+}
+.services.thirdBlock{
+    border-bottom: 2px solid #ecfc38 ;
+}
+.services.fourthBlock{
+    border-bottom: 2px solid #2403ff ;
+}
+.banner{
+    width: 100%;
+    height: 250px;
+    background-color: #f9bf3f;
+}
+.banner p{
+    padding: 20px;
+    
+    font-family: "Playfair Display", Georgia, serif;
+    font-size: 30px;
+    font-weight: 400;
+}
+.hiremeButton{
+    display: flex;
+    margin-left: 20px;
+    width:100px;
+    border: 2px black solid;
+    text-align: center;
+    height: 40px;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    background-color: none;
+    
+}
+.hiremeButton:hover{
+    background-color: #faab01;
+}
+
+@media only screen and (min-width: 768px) {
+    .servicesContainer{
+        flex-direction: row;
+        gap:10px;
+        
+    }
+    .services{
+        width: 250px;
+        height: 150px;
+        
+        
+    }
+
+    
+
+}
+

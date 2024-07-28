@@ -1,23 +1,43 @@
-import logo from './logo.svg';
+import React, { useState, useRef } from 'react';
 import './App.css';
+import RightSide from './Components/RightSide/RightSide';
+import { FaBars } from 'react-icons/fa';
+import LeftSide from './Components/LeftSide/LeftSide';
 
 function App() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false);
+
+  const toggleMenu = () => {
+    setIsMenuOpen(!isMenuOpen);
+  };
+  const homeRef = useRef(null);
+  const aboutRef = useRef(null);
+    // Add more refs as needed
+
+    const scrollToSection = (section) => {
+      console.log("thisis")
+        if (section === 'home' && homeRef.current) {
+            homeRef.current.scrollIntoView({ behavior: 'smooth' });
+        } else if (section === 'about' && aboutRef.current) {
+            aboutRef.current.scrollIntoView({ behavior: 'smooth' });
+            console.log("this")
+        }
+        // Add more conditions for other sections
+    };
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div className="burger-icon" onClick={toggleMenu}>
+        <FaBars />
+      </div>
+      <div className="mainContainer">
+        <div className={`container1 ${isMenuOpen ? 'show' : ''}`}>
+          <LeftSide scrollToSection={scrollToSection} />
+        </div>
+        <div className='container2'>
+          <RightSide aboutRef={aboutRef}/>
+        </div>
+      </div>
     </div>
   );
 }
