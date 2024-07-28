@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/personalapp/static/css/main.9dd55671.css",
+    "main.js": "/personalapp/static/js/main.f9d41a47.js",
+    "static/js/453.f9092a9d.chunk.js": "/personalapp/static/js/453.f9092a9d.chunk.js",
+    "static/media/check.jpg": "/personalapp/static/media/check.52bbd1783f496a71e4ba.jpg",
+    "static/media/SiddhantResume.pdf": "/personalapp/static/media/SiddhantResume.efe358ad57f596814f88.pdf",
+    "static/media/computer.png": "/personalapp/static/media/computer.14965bf6dc167b317fab.png",
+    "static/media/blockchain.png": "/personalapp/static/media/blockchain.bb526ddf20615a6d5ca1.png",
+    "static/media/contact.png": "/personalapp/static/media/contact.a51bd9a50d7d01831b64.png",
+    "static/media/backgroundImage.webp": "/personalapp/static/media/backgroundImage.e9a437fe5628ac6bf8a1.webp",
+    "index.html": "/personalapp/index.html",
+    "main.9dd55671.css.map": "/personalapp/static/css/main.9dd55671.css.map",
+    "main.f9d41a47.js.map": "/personalapp/static/js/main.f9d41a47.js.map",
+    "453.f9092a9d.chunk.js.map": "/personalapp/static/js/453.f9092a9d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.9dd55671.css",
+    "static/js/main.f9d41a47.js"
+  ]
+}
